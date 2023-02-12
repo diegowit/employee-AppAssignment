@@ -1,12 +1,36 @@
-# employee-AppAssigment
-This code calculates the monthly salary and deductions for an employee, and generates a payslip with the calculated values using Kotlin as a programming languaje.
+# Employee Payroll System -AppAssigment
+This is a simple payroll system that calculates and displays various details about an employee's salary, including the monthly salary, monthly PRSI, monthly PAYE, monthly gross pay, monthly total deductions, and monthly net pay. The system also generates a full payslip that shows all the payment and deduction details.
 
-The employee's information is stored as variables such as firstName, surname, gender, employeeID, etc. These values are then used to calculate various aspects of the employee's monthly pay such as the monthly salary, PRSI, PAYE, gross pay, total deductions, and net pay.
+## Features
+The system uses the employee's first name, surname, gender, employee ID, gross salary, PAYE percentage, PRSI percentage, annual bonus, and cycle to work monthly deduction to calculate and display the following details:
+Monthly salary
 
-The main function presents a menu to the user, which allows the user to choose what information they want to see. The menu options include the monthly salary, PRSI, PAYE, gross pay, total deductions, net pay, or a full payslip. The menu function prompts the user to enter their selection, and the when statement in the main function implements the selected option.
+Monthly PRSI
 
-The calculation of the various aspects of the employee's pay is done using functions such as getMonthlySalary, getMonthlyPRSI, getMonthlyPAYE, getGrossMonthlyPay, getTotalMonthlyDeductions, and getNetMonthlyPay. These functions make use of the values stored in the variables and other functions to perform the calculations.
+Monthly PAYE
 
-Finally, the getPayslip function generates a formatted string that represents the payslip, which includes the employee's information and the calculated values for their monthly pay.
+Monthly gross pay
 
-The roundTwoDecimals function is used to round the calculated values to two decimal places.
+Monthly total deductions
+
+Monthly net pay
+
+Full payslip
+
+The system provides a menu-driven interface that allows the user to choose which information to display.
+The system updates the employee's details by prompting the user to enter the new values.
+
+## Requirements
+Kotlin
+
+IntelliJ IDEA
+
+## Usage
+Open the code in IntelliJ IDEA.
+Run the main function.
+Choose an option from the menu to display the corresponding information.
+To update the employee's details, choose option 8 from the menu and follow the prompts to enter the new values.
+To exit the program, choose option -1 from the menu.
+
+## Note
+The roundTwoDecimals function is used to round the calculated values to two decimal places. There are two implementations of this function, and you can try each of them out to see which one works best for your needs.
